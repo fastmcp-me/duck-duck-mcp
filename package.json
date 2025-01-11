@@ -1,6 +1,6 @@
 {
   "name": "duck-duck-mcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "DuckDuckGo search implementation for Model Context Protocol (MCP)",
   "license": "MIT",
   "type": "module",
