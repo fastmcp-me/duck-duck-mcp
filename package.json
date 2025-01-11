@@ -5,7 +5,9 @@
   "license": "MIT",
   "type": "module",
   "main": "src/index.js",
-  "bin": "src/index.js",
+  "bin": {
+    "duck-duck-mcp": "src/index.js"
+  },
   "files": [
     "src"
   ],
