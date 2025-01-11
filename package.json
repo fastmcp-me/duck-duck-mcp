@@ -24,16 +24,16 @@
     "model-context-protocol"
   ],
   "author": {
-    "name": "Your Name"
+    "name": "qwang07"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/duck-duck-mcp.git"
+    "url": "git+https://github.com/qwang07/duck-duck-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/duck-duck-mcp/issues"
+    "url": "https://github.com/qwang07/duck-duck-mcp/issues"
   },
-  "homepage": "https://github.com/yourusername/duck-duck-mcp#readme",
+  "homepage": "https://github.com/qwang07/duck-duck-mcp#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "duck-duck-scrape": "^2.2.5",
