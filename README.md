@@ -15,8 +15,16 @@
 
 ## 安装
 
+不需要安装，可以直接通过 npx 运行：
+
 ```bash
-npm install @qwang07/duck-duck-mcp
+npx duck-duck-mcp
+```
+
+或者如果你想安装：
+
+```bash
+npm install -g duck-duck-mcp
 ```
 
 ## 使用方法
@@ -25,6 +33,10 @@ npm install @qwang07/duck-duck-mcp
 
 ### 启动服务器：
 ```bash
+# 使用 npx（推荐）
+npx duck-duck-mcp
+
+# 或者如果已经全局安装
 mcp-server-search
 ```
 
