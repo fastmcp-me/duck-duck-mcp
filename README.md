@@ -16,7 +16,7 @@
 ## 安装
 
 ```bash
-npm install duck-duck-mcp
+npm install @qwang07/duck-duck-mcp
 ```
 
 ## 使用方法
