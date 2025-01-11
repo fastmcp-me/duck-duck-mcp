@@ -1,0 +1,48 @@
+{
+  "name": "duck-duck-mcp",
+  "version": "1.0.0",
+  "description": "DuckDuckGo search implementation for Model Context Protocol (MCP)",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mcp-server-search": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "duckduckgo",
+    "search",
+    "ai",
+    "claude",
+    "model-context-protocol"
+  ],
+  "author": {
+    "name": "Your Name"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/duck-duck-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/duck-duck-mcp/issues"
+  },
+  "homepage": "https://github.com/yourusername/duck-duck-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "duck-duck-scrape": "^2.2.5",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.23.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "shx": "^0.3.4",
+    "typescript": "^5.3.3"
+  }
+}
