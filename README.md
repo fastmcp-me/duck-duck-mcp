@@ -1,5 +1,7 @@
 # Duck Duck MCP
 
+[![smithery badge](https://smithery.ai/badge/duck-duck-mcp)](https://smithery.ai/server/duck-duck-mcp)
+
 一个基于 DuckDuckGo 搜索引擎的 Model Context Protocol (MCP) 服务器实现。
 
 ## 功能特性
@@ -14,6 +16,14 @@
 - 主题标签识别
 
 ## 安装
+
+### 安装通过 Smithery
+
+通过 [Smithery](https://smithery.ai/server/duck-duck-mcp) 将 DuckDuckGo 搜索自动安装到 Claude 桌面端：
+
+```bash
+npx -y @smithery/cli install duck-duck-mcp --client claude
+```
 
 不需要安装，可以直接通过 npx 运行：
 
