@@ -18,10 +18,15 @@
 
 ## 安装
 
-### Installing via Smithery
+### 安装通过 Smithery
 
-To install DuckDuckGo Search for Claude Desktop automatically via [Smithery](https://smithery.ai/server/duck-duck-mcp):
+通过 [Smithery](https://smithery.ai/server/duck-duck-mcp) 将 DuckDuckGo 搜索自动安装到 Claude 桌面端：
 
+```bash
+npx -y @smithery/cli install duck-duck-mcp --client claude
+```
+
+不需要安装，可以直接通过 npx 运行：
 ```bash
 npx -y @smithery/cli install duck-duck-mcp --client claude
 ```
